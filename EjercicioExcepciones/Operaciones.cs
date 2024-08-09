@@ -4,8 +4,8 @@ namespace EjercicioExcepciones
 {
     public class Operaciones
     {
-        double n1;
-        double n2;
+       public double n1 { get; set; }
+       public double n2 { get; set; }
 
         public double Suma()
         {
@@ -26,5 +26,6 @@ namespace EjercicioExcepciones
         {
             return n1*n2;
         }
+
     }
 }
