@@ -26,7 +26,7 @@ try
                     Console.WriteLine("Ingrese el segundo numero");
                     Suma.n2 = double.Parse(Console.ReadLine());
                     Console.WriteLine($"El resultado es: {Suma.Suma()}");
-                    Console.WriteLine();
+                    Console.W riteLine();
                 }
                 catch (FormatException ex)
                 {
